@@ -2,7 +2,7 @@
 Example to demo terragrunt plan output discrepancy when [migratinng from root `terragrunt.hcl`.](https://terragrunt.gruntwork.io/docs/migrate/migrating-from-root-terragrunt-hcl/)
 
 ## Setup
-Assuming all necessary tools are installed, run the following command to generate a plan -
+Assuming all necessary tools are installed, run the following command to generate a plan-
 
 ```sh
 terragrunt plan --log-level=debug --summary-disable --all -lock=false -out=tfplan
